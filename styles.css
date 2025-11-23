@@ -1,0 +1,135 @@
+html {
+    background-color: #280004;
+    color: #280004;
+    margin: 0ß; 
+    max-width: 900px;
+    margin: auto;
+}
+
+.side-nav {
+align-items: flex-start;
+margin-left: 50px;
+background-color: #8b9d83;
+padding: 20px;
+padding-left: 0px;
+padding-bottom: 40px;
+padding-right: 40px;
+line-height: 30px;
+border-radius: 100%;
+text-align: center;
+border: 5px dotted #243b4a;
+box-shadow: 0 0 0 10px #243b4a;
+font-family: "maxular", serif;
+font-weight: 400;
+font-style: normal;
+
+}
+
+.logo {
+    width: 800px;
+    display: block;
+    margin: auto
+}
+.index-hero {
+    max-width: 800px;
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+    
+}
+.nav-list { 
+    list-style-type: none;
+}
+
+.body-flex {
+    align-items: flex-end;
+    width: 600px;
+    font-family: "maxular", serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+.main-flex {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.title {
+    text-align: center;
+    font-size: 32px;
+    padding-top: 0px;
+    max-width: 900px;
+}
+
+.footer {
+    font-family: "maxular", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #8b9d83;
+    padding: 20px;
+    border: 5px dotted #243b4a;
+    box-shadow: 0 0 0 10px #243b4a;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    max-width: 900px;
+}
+
+.footer-column {
+    flex: auto;
+    padding: 0 15px;
+}
+
+.body-copy {
+    font-family: "maxular", serif;
+    font-weight: 400;
+    font-style: normal; 
+    
+}
+
+.content {
+    background-color: #DAD2BC;
+    padding: 20px;
+}
+
+.small-image {
+    max-width: 500px;
+    display: block;
+    margin: auto;
+    padding-bottom: 10px;
+
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding-top: 20px;
+    
+}
+
+.floated {
+    float: right;
+    max-width: 310px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+
+.body-content-flex {
+    display: flex;
+}
+
+.content-flex{
+    align-items: flex-end;
+    max-width: 600px;
+    font-family: "maxular", serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+.side-image-flex {
+    max-width: 300px;
+margin-right: 20px;
+}
