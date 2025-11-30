@@ -22,19 +22,30 @@ box-shadow: 0 0 0 10px #243b4a;
 font-family: "maxular", serif;
 font-weight: 400;
 font-style: normal;
-
+width: 200px;
+max-height: 250px;
 }
 
 .logo {
-    width: 800px;
+    max-width: 800px;
+    margin-left: -20px;
+    margin-top: -20px;
+    background-color: #7699D4;
+    padding-left: 50px;
+    padding-right: 34px;
     display: block;
-    margin: auto
+    background-position: center top;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
 }
 .index-hero {
     max-width: 800px;
     display: block;
     margin: auto;
     padding-bottom: 20px;
+    margin-top: 40px;
     
 }
 .nav-list { 
@@ -60,6 +71,14 @@ font-style: normal;
     font-size: 32px;
     padding-top: 0px;
     max-width: 900px;
+    background-color: #280004;
+    color: #DAD2BC;
+    padding: 20px;
+    margin: -20px;
+    border-top: 5px dotted #DAD2BC;
+    border-bottom: 5px dotted #DAD2BC;
+    font-family: "map-roman-variable", serif;
+    font-variation-settings: "wdth" 100;
 }
 
 .footer {
@@ -77,6 +96,10 @@ font-style: normal;
     max-width: 900px;
 }
 
+.footer-list {
+    list-style-type: none;
+}
+
 .footer-column {
     flex: auto;
     padding: 0 15px;
@@ -85,13 +108,16 @@ font-style: normal;
 .body-copy {
     font-family: "maxular", serif;
     font-weight: 400;
-    font-style: normal; 
+    font-style: bold; 
     
 }
 
 .content {
     background-color: #DAD2BC;
     padding: 20px;
+    font-family: "maxular", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .small-image {
@@ -132,4 +158,48 @@ font-style: normal;
 .side-image-flex {
     max-width: 300px;
 margin-right: 20px;
+}
+
+.type-main {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.type-column {
+    flex: auto;
+    padding: 0 15px;
+}
+
+.map-example {
+    font-size: 24px;
+    font-family: "map-roman-variable", serif;
+    font-variation-settings: "wdth" 100;
+    min-width: 400px;
+    margin: auto;
+}
+
+.maxular-example {
+    font-size: 22px;
+    min-width: 400px;
+    margin: auto;
+}
+
+a:visited {
+    color: #243b4a;
+}
+
+a {
+    color: #243b4a;
+}
+
+a:hover {
+    color: white;
+}
+
+.color-palette {
+    max-width: 500px;
+    margin-right: 20px;
 }
