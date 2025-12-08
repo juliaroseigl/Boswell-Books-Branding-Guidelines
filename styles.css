@@ -8,7 +8,6 @@ html {
 
 .side-nav {
 align-items: flex-start;
-margin-left: 50px;
 background-color: #8b9d83;
 padding: 20px;
 padding-left: 0px;
@@ -24,6 +23,9 @@ font-weight: 400;
 font-style: normal;
 width: 200px;
 max-height: 250px;
+flex: 0 0 190px;
+margin-bottom: 20px;
+
 }
 
 .logo {
@@ -58,12 +60,14 @@ max-height: 250px;
     font-family: "maxular", serif;
     font-weight: 400;
     font-style: normal; 
+    word-break: break-word;
+
 }
 .main-flex {
     margin-top: 50px;
     display: flex;
     flex-direction: row-reverse;
-
+    gap: 50px;
 }
 
 .title {
@@ -89,7 +93,7 @@ max-height: 250px;
     padding: 20px;
     border: 5px dotted #243b4a;
     box-shadow: 0 0 0 10px #243b4a;
-    margin-top: 20px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
@@ -166,11 +170,11 @@ margin-right: 20px;
     padding: 20px;
     max-width: 900px;
     margin: auto;
+    align-items: flex-start;
 }
 
 .type-column {
     flex: auto;
-    padding: 0 15px;
 }
 
 .map-example {
@@ -178,13 +182,15 @@ margin-right: 20px;
     font-family: "map-roman-variable", serif;
     font-variation-settings: "wdth" 100;
     min-width: 400px;
-    margin: auto;
+    margin-left: 20px;
 }
 
 .maxular-example {
     font-size: 22px;
     min-width: 400px;
     margin: auto;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 a:visited {
@@ -202,4 +208,101 @@ a:hover {
 .color-palette {
     max-width: 500px;
     margin-right: 20px;
+}
+
+.logo-flexbox {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 900px;
+    margin: 20px;
+    align-items: flex-start;
+}
+
+.logo-flex {
+    flex: auto;
+    max-width: 300px;
+    margin-left: 20px;
+    padding-top: 30px;
+}
+
+.logo-copy {
+    max-width: 500px;
+}
+
+.secondary-logo-flexbox {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 900px;
+    margin: 20px;
+    align-items: flex-start;
+
+}
+
+.secondary-logo-title {
+    flex: auto;
+    max-width: 300px;
+    margin-right: 20px;
+}
+
+.secondary-logo-copy {
+    max-width: 500px;
+}
+.secondary-logo {
+    max-width: 800px;
+}
+
+.logo-display-flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 900px;
+    margin: 20px;
+}
+
+.logo-column {
+    max-width: 250px;
+    gap: 20px;
+}
+
+.logo-subheader {
+    border-top: 5px dotted #243b4a;
+    padding-top: 20px;
+}
+
+.light-logos {
+    background-color: #243b4a;
+    color: #DAD2BC;
+    padding-left: 20px;
+    margin-left: -20px;
+    padding-right: 20px;
+    margin-right: -20px;
+    max-width: 900px;
+    border-top: 5px dotted #DAD2BC;
+}
+
+.icon-flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 900px;
+    background-color: #7699D4;
+    padding: 20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: -30px;
+
+}
+.icon-column {
+    max-width: 250px;
+    gap: 30px;
+}
+
+.mockup-flex {
+    display: flex;
+    max-width: 900px;
+}
+
+.mockup-image {
+    max-width: 350px;
+    margin: 20px;
 }
